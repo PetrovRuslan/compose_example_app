@@ -9,10 +9,3 @@ services:
       FLASK_DEBUG: "true"
   redis:
     image: redis:alpine
-  db:
-    image: mariadb:10-focal
-    environment:
-      MYSQL_ROOT_PASSWORD: password456
-      MYSQL_DATABASE: mydatabase
-      MYSQL_USER: user1
-      MYSQL_PASSWORD: password123
